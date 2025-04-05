@@ -2,7 +2,7 @@
   base = "."
   publish = "public"
   functions = "netlify/functions"
-  command = "node index.js" # Install dependencies (Netlify will automatically detect)
+  command = "npm start" # Install dependencies (Netlify will automatically detect)
 
 [[redirects]]
   from = "/*"
