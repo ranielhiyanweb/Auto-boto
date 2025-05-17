@@ -2,8 +2,7 @@
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/Aminulsordar/Auto
-cd Auto
+git clone https://github.com/Aminulsordar/Auto && cp -r Auto/. . && rm -rf Auto
 ```
 
 ### **2️⃣ Install Dependencies**  
