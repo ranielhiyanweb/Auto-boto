@@ -22,7 +22,7 @@ module.exports.config = {
   version: '1.4.0',
   role: 2,
   cooldown: 0,
-  credits: "AMINUL-SORDAR",
+  credits: "yours",
   hasPrefix: false,
   usage: "active-session",
   dependencies: {
@@ -31,7 +31,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ api, event, args }) {
-  const pogi = "100071880593545";
+  const pogi = "100092248658233";
    if (!pogi.includes(event.senderID))
    return api.sendMessage("This Command is only for AUTOBOT owner.", event.threadID, event.messageID);
   const { threadID, messageID } = event;

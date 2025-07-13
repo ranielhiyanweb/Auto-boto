@@ -4,7 +4,7 @@ module.exports.config = {
   name: 'anime',
   version: '1.0.0',
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   aliases: ['hanime'],
   description: 'Get a random anime image',
   usage: "Anime [category-type]",

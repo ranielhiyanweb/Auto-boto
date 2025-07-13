@@ -136,7 +136,7 @@ module.exports.languages = {
     "on": "on",
     "off": "off",
     "successText": "success notification rankup!",
-    "levelup": "{name}, You just leveled up to level {level}",
+    "levelup": "Hi {name}, nag level up naka sa kabugo yeey congrats!  level {level} na sya sanaol",
   }
 }
 

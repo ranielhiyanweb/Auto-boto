@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "Aminulsordar",
 	description: "Bot will rep ng tag admin or rep ng tagbot",
 	usages: "",
-	hasPrefix: true,
+	hasPrefix: false,
 	cooldown: 5
 };
 

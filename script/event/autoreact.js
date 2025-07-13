@@ -16,7 +16,7 @@
     const message = event.body.toLowerCase();
 
     const reactionsMap = {
-      "😂": ["haha", "lol", "funny", "hahah", "hahaha", "masaya", "happy", "🤣", "natomba", "tumomba", "tomomba", "tumumba", "tomumba", "side eye", "awooop jumpscare", "so masaya ka?", "sana all"],
+      "😆": ["haha", "lol", "funny", "hahah", "hahaha", "masaya", "happy", "🤣", "natomba", "tumomba", "tomomba", "tumumba", "tomumba", "side eye", "awooop jumpscare", "so masaya ka?", "sana all"],
       "😭": ["cry", "sad", "crying", "bakit ka malungkot?", "bakit ka malongkot?", "hindi na", "sad ka", "walang ulam"],
       "🥰": ["love", "mahal", "crush"],
       "🎮": ["laro", "laru", "game", "mc", "minecraft", "ml", "mlbb", "mobile legends", "mobile legends bang bang", "cod", "call of duty"]

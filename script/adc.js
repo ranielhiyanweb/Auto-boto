@@ -18,8 +18,8 @@ module.exports.run = async function({
   const request = require('request');
   const cheerio = require('cheerio');
   const {
-    61550188503841,
-    61550188503841,
+    "61550188503841",
+    "61550188503841",
     61550188503841,
     messageReply,
     type

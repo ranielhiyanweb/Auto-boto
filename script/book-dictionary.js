@@ -1,6 +1,7 @@
 module.exports.config = {
   name: "dictionary",
   version: "1.0.0",
+  hasPrefix: false,
   role: 0,
   aliases: ['search', 'meaning', 'define']
 };

@@ -3,6 +3,7 @@ const axios = require('axios');
 module.exports = {
   config: {
     name: "fun",
+    hasPrefix: false,
     version: "2.0",
     author: "aminul",
     countDown: 20,

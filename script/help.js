@@ -68,7 +68,7 @@ module.exports.run = async function({
         const aliasesMessage = aliases.length ? `➛ Aliases: ${aliases.join(', ')}\n` : '';
         const descriptionMessage = description ? `Description: ${description}\n` : '';
         const usageMessage = usage ? `➛ Usage: ${usage}\n` : '';
-        const creditsMessage = credits ? `➛ Credits: ${credits}\n` : '';
+        
         const versionMessage = version ? `➛ Version: ${version}\n` : '';
         const cooldownMessage = cooldown ? `➛ Cooldown: ${cooldown} second(s)\n` : '';
         const message = ` 「 Command 」\n\n➛ Name: ${name}\n${versionMessage}${roleMessage}\n${aliasesMessage}${descriptionMessage}${usageMessage}${creditsMessage}${cooldownMessage}`;
